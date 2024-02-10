@@ -33,7 +33,9 @@ function EmployeeForm() {
 
   return (
     <div className="form-container">
+      
       <form onSubmit={handleSubmit} className="employee-form">
+      <h2>Employee Form</h2>
         <div className="input-group">
           <label className="input-label">Name:</label>
           <input 
